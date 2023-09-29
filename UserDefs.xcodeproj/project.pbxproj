@@ -14,6 +14,8 @@
 		3CA246252AC7226900D69E24 /* UserDefsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA246242AC7226900D69E24 /* UserDefsTests.swift */; };
 		3CA2462F2AC7226900D69E24 /* UserDefsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA2462E2AC7226900D69E24 /* UserDefsUITests.swift */; };
 		3CA246312AC7226900D69E24 /* UserDefsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA246302AC7226900D69E24 /* UserDefsUITestsLaunchTests.swift */; };
+		3CA246402AC7235B00D69E24 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA2463F2AC7235B00D69E24 /* User.swift */; };
+		3CA246422AC723CF00D69E24 /* Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA246412AC723CF00D69E24 /* Defaults.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		3CA2462A2AC7226900D69E24 /* UserDefsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UserDefsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CA2462E2AC7226900D69E24 /* UserDefsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefsUITests.swift; sourceTree = "<group>"; };
 		3CA246302AC7226900D69E24 /* UserDefsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3CA2463F2AC7235B00D69E24 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		3CA246412AC723CF00D69E24 /* Defaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Defaults.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +98,10 @@
 		3CA246122AC7226700D69E24 /* UserDefs */ = {
 			isa = PBXGroup;
 			children = (
-				3CA246132AC7226700D69E24 /* UserDefsApp.swift */,
+				3CA2463D2AC7227900D69E24 /* models */,
+				3CA2463E2AC7228600D69E24 /* utils */,
 				3CA246152AC7226700D69E24 /* ContentView.swift */,
+				3CA246132AC7226700D69E24 /* UserDefsApp.swift */,
 				3CA246172AC7226800D69E24 /* Assets.xcassets */,
 				3CA246192AC7226800D69E24 /* Preview Content */,
 			);
@@ -125,6 +131,22 @@
 				3CA246302AC7226900D69E24 /* UserDefsUITestsLaunchTests.swift */,
 			);
 			path = UserDefsUITests;
+			sourceTree = "<group>";
+		};
+		3CA2463D2AC7227900D69E24 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				3CA2463F2AC7235B00D69E24 /* User.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		3CA2463E2AC7228600D69E24 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				3CA246412AC723CF00D69E24 /* Defaults.swift */,
+			);
+			path = utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +280,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3CA246162AC7226700D69E24 /* ContentView.swift in Sources */,
+				3CA246422AC723CF00D69E24 /* Defaults.swift in Sources */,
 				3CA246142AC7226700D69E24 /* UserDefsApp.swift in Sources */,
+				3CA246402AC7235B00D69E24 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

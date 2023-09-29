@@ -8,6 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    init() {
+        
+        print(Defaults.loadUser()!)
+        Defaults.storeUser(user: User(firstname: "true", lastname: "true", email: "true", phone: "true", address: "true"))
+        print(Defaults.loadUser()!)
+        
+    }
+    
     var body: some View {
         VStack {
             Image(systemName: "globe")
